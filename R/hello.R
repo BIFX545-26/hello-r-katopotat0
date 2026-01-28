@@ -12,6 +12,7 @@
 #' @return A character vector of greetings
 #' @export
 hello <- function(name)
-{
-
+{library(hello)
+  hello('BIFX 545 Students')
 }
+devtools::load_all()
